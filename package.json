@@ -1,0 +1,23 @@
+{
+  "name": "araspor.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/araspor/araspor.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/araspor/araspor.github.io/issues"
+  },
+  "homepage": "https://github.com/araspor/araspor.github.io",
+  "dependencies": {
+    "gh-pages": "^3.0.0"
+  }
+}
