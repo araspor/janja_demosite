@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/araspor/araspor.github.io/issues"
   },
-  "homepage": "https://github.com/araspor/araspor.github.io",
+  "homepage": "https://araspor.github.io/",
   "dependencies": {
     "gh-pages": "^3.0.0"
   }
