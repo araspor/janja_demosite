@@ -22,7 +22,11 @@ body {
 }
 
 #sidebar-wrapper .list-group {
-  width: 15rem;
+  width: 25rem;
+}
+
+video:focus {
+  outline: 0;
 }
 
 #page-content-wrapper {
@@ -46,4 +50,27 @@ body {
   #wrapper.toggled #sidebar-wrapper {
     margin-left: -15rem;
   }
+}
+
+svg {
+  display: block;
+}
+
+h2 {
+  display: inline-block;
+}
+
+div.card-body {
+  height: 60px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+div.cards-right {
+  margin-right: 1px;
+  padding-right: 1px;
+}
+
+span {
+  font-size: 30px;
 }
