@@ -4,7 +4,14 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
  */
 body {
-  overflow-x: hidden;
+  overflow: hidden;
+  padding-top: 55px;
+  background-color: #FAFAFA;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
 }
 
 #sidebar-wrapper {
@@ -72,5 +79,46 @@ div.cards-right {
 }
 
 span {
+  font-style: normal;
+}
+
+span.sidebar {
   font-size: 30px;
+}
+
+.left-menu {
+  min-height: 100vh; /*Added newly*/
+}
+
+.center-content {
+  min-height: 100vh; /*Added newly*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.right-content {
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+}
+
+.list-group-item  {
+  width:470px;
+}
+
+span.sklon {
+  color: mediumseagreen;
+}
+
+span.sklanjanje {
+  color: crimson;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+span.uporaba {
+  color: grey;
 }
