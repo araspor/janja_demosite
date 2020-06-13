@@ -41,7 +41,7 @@ span {
 }
 
 span.sidebar {
-  font-size: 30px;
+  font-size: 26px;
   color: black;
 }
 
@@ -95,7 +95,7 @@ span.uporaba {
 }
 
 .active {
-  background-color: white !important;
+  background-color: #FAFAFA !important;
   border-color: lightgray !important;
 }
 
@@ -112,13 +112,13 @@ span.uporaba {
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
-  font-size: 16px;
+  font-size: 15px;
  
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
   top: -5px;
-  left: 105%;
+  left: 130%;
 }
 
 /* Tooltip text */
@@ -130,17 +130,22 @@ span.uporaba {
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
-  font-size: 16px;
+  font-size: 15px;
  
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
   top: -5px;
-  left: 105%;
+  left: 130%;
   top: 55%;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
 .sopomenke i:hover > .tooltiptext {
   visibility: visible;
+}
+
+.list-group-item {
+  margin-right: 0px !important;
+  padding-right: 0px !important;
 }
