@@ -13,49 +13,8 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-#sidebar-wrapper {
-  min-height: 100vh;
-  margin-left: -15rem;
-  -webkit-transition: margin .25s ease-out;
-  -moz-transition: margin .25s ease-out;
-  -o-transition: margin .25s ease-out;
-  transition: margin .25s ease-out;
-}
-
-#sidebar-wrapper .sidebar-heading {
-  padding: 0.875rem 1.25rem;
-  font-size: 1.2rem;
-}
-
-#sidebar-wrapper .list-group {
-  width: 25rem;
-}
-
 video:focus {
   outline: 0;
-}
-
-#page-content-wrapper {
-  min-width: 100vw;
-}
-
-#wrapper.toggled #sidebar-wrapper {
-  margin-left: 0;
-}
-
-@media (min-width: 768px) {
-  #sidebar-wrapper {
-    margin-left: 0;
-  }
-
-  #page-content-wrapper {
-    min-width: 0;
-    width: 100%;
-  }
-
-  #wrapper.toggled #sidebar-wrapper {
-    margin-left: -15rem;
-  }
 }
 
 svg {
@@ -83,6 +42,7 @@ span {
 
 span.sidebar {
   font-size: 30px;
+  color: black;
 }
 
 .left-menu {
@@ -102,8 +62,8 @@ span.sidebar {
   margin-top: 35px;
 }
 
-.list-group-item  {
-  width:470px;
+.navbar-header > a:hover {
+  text-decoration: underline;
 }
 
 span.sklon {
@@ -120,4 +80,67 @@ p.italic {
 
 span.uporaba {
   color: grey;
+}
+
+.naslov {
+  display: inline-block;
+}
+
+.sopomenke i {
+  color: black;
+}
+
+.sopomenke i:hover{
+  color: #0275d8;
+}
+
+.active {
+  background-color: white !important;
+  border-color: lightgray !important;
+}
+
+.active:hover {
+  background-color: #FAFAFA !important;
+}
+
+/* Tooltip text */
+.tooltiptext.toptooltip{
+  visibility: hidden;
+  width: 3em;
+  background-color: mediumseagreen;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  font-size: 16px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+/* Tooltip text */
+.tooltiptext.bottomtooltip{
+  visibility: hidden;
+  width: 3em;
+  background-color: crimson;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  font-size: 16px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+  top: 55%;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.sopomenke i:hover > .tooltiptext {
+  visibility: visible;
 }
