@@ -79,6 +79,10 @@ p.italic {
   font-style: italic;
 }
 
+.besedilo {
+  font-family: 'Times New Roman', Times, serif !important;
+}
+
 span.uporaba {
   color: grey;
 }
