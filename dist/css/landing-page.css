@@ -4,6 +4,21 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */
 
+ .btn-primary {
+  background-color: #73B6F1 !important;
+  color: black !important;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #A5AFCB !important;
+  color: white !important;
+  border: none;
+}
+
+body {
+  background-color: #F7F9F9 !important;
+}
 
 h1,
 h2,

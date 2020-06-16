@@ -3,8 +3,18 @@
 * Copyright 2013-2019 Start Bootstrap
 * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
 */
-body {
-}
+.btn-primary {
+    background-color: #73B6F1 !important;
+    color: black !important;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #A5AFCB !important;
+    color: white !important;
+    border: none;
+  }
+
 h1,h2,h3,h4,h5,h6 {
     font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700
 }
