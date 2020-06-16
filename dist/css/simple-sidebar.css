@@ -6,6 +6,7 @@
 body {
   overflow: hidden;
   padding-top: 55px;
+  background-color: #F7F9F9 !important;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -91,16 +92,42 @@ span.uporaba {
 }
 
 .sopomenke i:hover{
-  color: #0275d8;
+  color: white;
+}
+
+
+.list-group-item {
+  margin-right: 0px !important;
+  padding-right: 0px !important;
+  background-color: #73B6F1 !important;
+}
+
+.list-group-item:hover {
+  background-color: #A5AFCB !important;
 }
 
 .active {
-  background-color: #FAFAFA !important;
-  border-color: lightgray !important;
+  background-color: #A5AFCB  !important;
+  border-color: #A5AFCB !important;
+  color: white !important;
+}
+
+.active span {
+  color: white !important;
+}
+
+.active i {
+  color: white !important;
+}
+
+.active i:hover {
+  color: #4A5A82 !important;
 }
 
 .active:hover {
-  background-color: #FAFAFA !important;
+  background-color: #A5AFCB  !important;
+  border-color: #A5AFCB !important;
+  color: white !important;
 }
 
 /* Tooltip text */
@@ -145,7 +172,38 @@ span.uporaba {
   visibility: visible;
 }
 
-.list-group-item {
-  margin-right: 0px !important;
-  padding-right: 0px !important;
+.bg-dark {
+  background-color: #4A5A82 !important;
+  box-shadow: 0px 1px 1px #4A5A82
+}
+
+.bg-light {
+  background-color: #73B6F1 !important;
+  border-bottom: 1px solid #73B6F1;
+}
+
+.border-right {
+  border: none !important;
+}
+
+.clickable { cursor: pointer !important;}
+
+.clickable:hover span {
+  color: white !important;
+}
+
+.clickable:hover i {
+  color: white !important;
+}
+
+.btn-primary {
+  background-color: #73B6F1 !important;
+  color: black !important;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #A5AFCB !important;
+  color: white !important;
+  border: none;
 }
